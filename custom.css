@@ -1,0 +1,25 @@
+.section-profile{
+    margin-top: 30px;
+    border-bottom: : 1px solid dodgerblue
+}
+.section-profile .profile-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* kasih tinggi dulu baru justify content space between untuk meratakan text sesuai tinggi kolom */
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+    min-height: 500px;
+}
+.section-profile .profile-item p{
+    height: 100px;
+    overflow-y: hidden;
+}
+.section-profile .profile-item img{
+    width: 150px ;
+    height: 150px;
+    border-radius: 200px;
+    margin-bottom: 30px;
+}
